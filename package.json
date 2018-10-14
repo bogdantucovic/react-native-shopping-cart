@@ -1,0 +1,39 @@
+{
+  "name": "react-native-shopping-cart",
+  "version": "0.0.1",
+  "private": true,
+  "author": {
+    "name": "Bogdan Tucovic",
+    "email": "1bogdantucovic@gmail.com",
+    "url": "https://www.linkedin.com/in/btucovic/"
+  },
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "prop-types": "^15.6.2",
+    "react": "16.6.0-alpha.8af6728",
+    "react-fontawesome": "^1.6.1",
+    "react-native": "0.57.3",
+    "react-native-swiper": "^1.5.13",
+    "react-navigation": "^2.18.0",
+    "react-redux": "^5.0.7",
+    "redux": "^4.0.0",
+    "reselect": "^4.0.0",
+    "styled-components": "^3.4.10"
+  },
+  "devDependencies": {
+    "babel-jest": "23.6.0",
+    "jest": "23.6.0",
+    "metro-react-native-babel-preset": "0.48.1",
+    "react-test-renderer": "16.6.0-alpha.8af6728"
+  },
+  "jest": {
+    "preset": "react-native"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bogdantucovic/react-native-shopping-cart.git"
+  }
+}
